@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EnumsAndComposition.Entities.Enums
+﻿namespace EnumsAndComposition.Entities.Enums
 {
-    internal class OrderStatus
+    internal enum OrderStatus : int
     {
+        PendingPayment,
+        Processing,
+        Shipped,
+        Delivered
     }
 }
