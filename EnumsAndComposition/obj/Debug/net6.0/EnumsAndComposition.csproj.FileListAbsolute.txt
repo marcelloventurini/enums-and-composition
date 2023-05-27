@@ -1,0 +1,15 @@
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\bin\Debug\net6.0\EnumsAndComposition.exe
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\bin\Debug\net6.0\EnumsAndComposition.deps.json
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\bin\Debug\net6.0\EnumsAndComposition.runtimeconfig.json
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\bin\Debug\net6.0\EnumsAndComposition.dll
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\bin\Debug\net6.0\EnumsAndComposition.pdb
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\obj\Debug\net6.0\EnumsAndComposition.csproj.AssemblyReference.cache
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\obj\Debug\net6.0\EnumsAndComposition.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\obj\Debug\net6.0\EnumsAndComposition.AssemblyInfoInputs.cache
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\obj\Debug\net6.0\EnumsAndComposition.AssemblyInfo.cs
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\obj\Debug\net6.0\EnumsAndComposition.csproj.CoreCompileInputs.cache
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\obj\Debug\net6.0\EnumsAndComposition.dll
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\obj\Debug\net6.0\refint\EnumsAndComposition.dll
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\obj\Debug\net6.0\EnumsAndComposition.pdb
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\obj\Debug\net6.0\EnumsAndComposition.genruntimeconfig.cache
+C:\Users\marce\Study\CSharp\EnumsAndComposition\EnumsAndComposition\obj\Debug\net6.0\ref\EnumsAndComposition.dll

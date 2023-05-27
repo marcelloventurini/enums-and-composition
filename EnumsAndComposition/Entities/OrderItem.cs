@@ -1,4 +1,6 @@
-﻿namespace EnumsAndComposition.Entities
+﻿using System.Text;
+
+namespace EnumsAndComposition.Entities
 {
     internal class OrderItem
     {
@@ -18,6 +20,11 @@
         public double SubTotal()
         {
             return Amount * Price;
+        }
+
+        public override string ToString()
+        {
+            return $"{Product.Name}, R${Price}, Quantidade: {Amount}, SubTotal: R${SubTotal()}";
         }
     }
 }

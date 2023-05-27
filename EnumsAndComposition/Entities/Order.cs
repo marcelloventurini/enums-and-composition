@@ -1,4 +1,5 @@
 ﻿using EnumsAndComposition.Entities.Enums;
+using System.Text;
 
 namespace EnumsAndComposition.Entities
 {
@@ -8,7 +9,7 @@ namespace EnumsAndComposition.Entities
         public OrderStatus Status { get; set; }
         public Client Client { get; set; }
 
-        public List<OrderItem> Items { get; set; }
+        public List<OrderItem> Items { get; set; } = new List<OrderItem>();
 
         public Order() { }
 
@@ -38,6 +39,28 @@ namespace EnumsAndComposition.Entities
             }
 
             return sum;
+        }
+
+        public override string ToString()
+        {
+            StringBuilder sb = new();
+            sb.Append("Momento do pedido: ");
+            sb.AppendLine(Moment.ToString("MM/dd/yyyy hh:mm:ss"));
+            sb.Append("Status do pedido: ");
+            sb.AppendLine(Status.ToString());
+            sb.Append("Cliente: ");
+            sb.AppendLine(Client.ToString());
+            sb.AppendLine("Itens do pedido:");
+
+            foreach (OrderItem item in Items)
+            {
+                sb.AppendLine(item.ToString());
+            }
+
+            sb.Append("Preço total: R$");
+            sb.AppendLine(Total().ToString());
+
+            return sb.ToString();
         }
     }
 }
