@@ -28,5 +28,16 @@ namespace EnumsAndComposition.Entities
         {
             Items.Remove(item);
         }
+
+        public double Total()
+        {
+            double sum = 0.0;
+            foreach (OrderItem item in Items)
+            {
+                sum += item.SubTotal();
+            }
+
+            return sum;
+        }
     }
 }
